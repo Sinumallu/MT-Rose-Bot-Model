@@ -145,7 +145,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="⭕️ Command Help ⭕️", url="https://t.me/{}?start=help".format(bot.username))],
-                     [InlineKeyboardButton(text="📢Updates", url="), InlineKeyboardButton(text="❣️Video", url="https://youtube.com/channel/UCVbKgUOGVEdQlmLJ_fXrWMQ)", ,
+                     [InlineKeyboardButton(text="📢Updates", url="), InlineKeyboardButton(text="❣️Video", url="https://youtube.com)", ,)
                      [InlineKeyboardButton(text="➕ Add me to your group ➕", url="t.me/{}?startgroup=true".format(bot.username)) ]]))
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
